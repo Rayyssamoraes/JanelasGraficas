@@ -9,8 +9,7 @@ public class Cliente {
         this.cliente = cliente;
     }
 
-    public String getCliente() {
-        return cliente;
+    public String getCliente() { return cliente;
     }
 
     public void setCliente(String cliente) {
@@ -21,11 +20,12 @@ public class Cliente {
         return cnpj;
     }
 
-    public String getDados(){
+    public String getDados() {
         String aux = "";
 
-        aux += "CNPJ:" + cnpj + "\n";
+        aux += "CNPJ: " + cnpj + "\n";
         aux += "Cliente: " + cliente + "\n";
         return aux;
     }
+
 }
